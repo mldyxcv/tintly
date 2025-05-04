@@ -1,23 +1,57 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.js
+/.yarn/cache
+/.yarn/unplugged
+/.yarn/build-state.yml
+/.yarn/install-state.gz
+.pnpm-debug.log*
 
-# testing
+# Testing
 /coverage
+/.jest
+/cypress/videos
+/cypress/screenshots
 
-# production
+# Production
 /build
+/dist
+/.next
+/out
 
-# misc
+# Misc
 .DS_Store
+*.log
+*.swp
+*.swo
+.thumbs.db
+
+# Environment
+.env*
+!.env.example
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Editor/IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

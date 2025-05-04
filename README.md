@@ -1,6 +1,8 @@
 # tintly 🎨✨
 
 **A delightful color palette generator** that helps designers and developers create, customize, and export beautiful color schemes with cute gradients.
+## 🌟 Live Demo  
+[Click here to try tintly!](https://tintly-one.vercel.app/)
 
 ![Image](https://github.com/user-attachments/assets/453068f5-4723-4874-99ae-1dea2bef2ded)
 ## ✨ Features
